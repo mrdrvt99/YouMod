@@ -370,10 +370,10 @@
         NSString *pID = [[item pivotBarItemRenderer] pivotIdentifier];
 
         // If the ID matches any of these, mark it for removal
-        if ([pID isEqualToString:@"FEshorts"] && HideShorts()) {
+        if ([pID isEqualToString:@"FEshorts"]) {
             [indicesToRemove addIndex:i];
         }
-        if ([pID isEqualToString:@"FEuploads"] && HideCreate()) {
+        if ([pID isEqualToString:@"FEuploads"]) {
             [indicesToRemove addIndex:i];
         }
         // if ([pID isEqualToString:@"FEsubscriptions"]) {
