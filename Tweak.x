@@ -13,7 +13,7 @@
     // Modify the type of the icon before setting the renderer
     YTIIcon *icon = renderer.iconImage;
     if (icon) {
-        icon.iconType = YT_PREMIUM_LOGO; // 537
+        icon.iconType = 537;
     }
     %orig(renderer);
 }
@@ -31,7 +31,7 @@
     // Modify the type of the icon before setting the renderer
     YTIIcon *icon = renderer.iconImage;
     if (icon) {
-        icon.iconType = YT_PREMIUM_LOGO; // 537
+        icon.iconType = 537;
     }
     %orig(renderer);
 }

@@ -37,6 +37,10 @@
 #define HideShortsShelf @"YouModHideShortsShelf"
 #define HideSubbar @"YouModHideSubbar"
 
+@interface YTITopbarLogoRenderer : NSObject
+@property(readonly, nonatomic) YTIIcon *iconImage;
+@end
+
 @interface YTTouchFeedbackController : YTCollectionViewCell
 @property (nonatomic, strong, readwrite) UIColor *feedbackColor;
 @end
