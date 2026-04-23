@@ -3,7 +3,6 @@
 #import <YouTubeHeader/_ASDisplayView.h>
 #import <YouTubeHeader/YTIIcon.h>
 #import <YouTubeHeader/YTRightNavigationButtons.h>
-#import <YouTubeHeader/YTNavigationBarTitleView.h>
 #import <YouTubeHeader/YTPlayerBarController.h>
 // #import <YouTubeHeader/YTPlayerViewController.h>
 // #import <YouTubeHeader/YTWatchController.h>

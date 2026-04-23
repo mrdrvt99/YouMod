@@ -111,7 +111,6 @@
     %orig;
     if (IS_ENABLED(HideHoriShelf) && [self.accessibilityIdentifier isEqualToString:@"horizontal-video-shelf.view"]) self.hidden = YES;
 	if (IS_ENABLED(HideGenMusicShelf) && [self.accessibilityIdentifier isEqualToString:@"feed_nudge.view"]) self.hidden = YES;
-    if ([self.accessibilityIdentifier isEqualToString:@"id.reel_remix_button"]) self.hidden = YES;
 }
 
 %end
@@ -345,12 +344,14 @@
 %end
 */
 
+/*
 // works i guess
 // Disable Fullscreen Actions
 %hook YTFullscreenActionsView
 - (BOOL)enabled { return NO; }
 - (void)setEnabled:(BOOL)arg1 { %orig(NO); }
 %end
+*/
 
 /*
 %hook YTInlinePlayerBarContainerView
