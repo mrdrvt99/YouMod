@@ -195,8 +195,9 @@
     [[self valueForKey:@"_seekForwardAccessibilityButtonView"] setBackgroundColor:nil];
     [[self valueForKey:@"_playPauseButton"] setBackgroundColor:nil];
 }
-%end
 */
+%end
+
 
 /* idk what is this thing does
 %hook YTColdConfig
