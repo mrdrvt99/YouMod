@@ -89,6 +89,9 @@
 - (UIImage *)resizedImageNamed:(NSString *)iconName;
 @end
 
+@interface QTMButton : UIButton
+@end
+
 @interface YTLightweightQTMButton ()
 @property (nonatomic, assign, readwrite, getter=isShouldRaiseOnTouch) BOOL shouldRaiseOnTouch;
 @end
