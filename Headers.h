@@ -42,7 +42,6 @@
 // Cache
 #define AutoClearCache @"YouModAutoClearCache"
 // Appearance
-#define OLEDTheme @"YouModEnablesOLEDTheme"
 #define OLEDKeyboard @"YouModEnablesOLEDKeyboard"
 // Navigation bar
 #define HideYTLogo @"YouModHideYTLogo"
